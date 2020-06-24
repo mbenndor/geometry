@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">AndMeasure</string>
+
+    <string name="data_not_available">Not available</string>
+
+    <string name="error_input_zero">Please enter a value greater than zero.</string>
+    <string name="error_input_empty">Please enter a value.</string>
+    <string name="error_input_nan">Please enter a number.</string>
+    <string name="error_input_string_empty">Please enter a name.</string>
+
+    <string name="error_fov_not_calibrated">Field of view has to be calibrated first.</string>
+    <string name="error_cao_not_calibrated">Marker has to be calibrated first.</string>
+
+    <string name="calibration_title">Calibration</string>
+    <string name="calibration_subtitle">Field of view calibration</string>
+    <string name="calibration_input_distance">Distance (cm)</string>
+    <string name="calibration_input_radius">Marker radius (cm)</string>
+    <string name="calibration_start">Calibrate</string>
+
+    <string name="calibration_output_horizontal_fov">Horizontal field of view:\u0020</string>
+
+    <string name="cao_title">Pinhole</string>
+    <string name="cao_subtitle_1">Marker calibration</string>
+    <string name="cao_subtitle_2">Marker measurement</string>
+    <string name="cao_input_name">Name</string>
+    <string name="cao_input_distance">Distance (cm)</string>
+    <string name="cao_input_radius">Radius (cm)</string>
+    <string name="cao_calibrate">Calibrate</string>
+    <string name="cao_start">Measure</string>
+    <string name="cao_last_distance">Most recent distance:\u0020</string>
+    <string name="cao_profile_radius">Radius:\u0020</string>
+    <string name="cao_profile_distance">Distance:\u0020</string>
+    <string name="cao_input_marker">Calibrated markers</string>
+
+    <string name="stereo_title">Stereoscopy</string>
+    <string name="stereo_subtitle">Stereoscopic measurement</string>
+    <string name="stereo_input_distance">Distance (cm)</string>
+    <string name="stereo_start">Measure</string>
+    <string name="stereo_last_distance">Most recent distance:\u0020</string>
+    <string name="stereo_last_corrected_distance">Most recent corrected distance:\u0020</string>
+    <string name="stereo_input_correction_switch">Ignore change in device orientation</string>
+
+    <string name="data_value_angle">%1$.2f °</string>
+    <string name="data_value_distance">%1.2f cm</string>
+</resources>

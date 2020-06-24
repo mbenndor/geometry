@@ -1,0 +1,98 @@
+<?xml version="1.0"
+        encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".fragment.StereoscopyFragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/fragment_padding"
+        >
+
+        <TextView
+                android:text="@string/stereo_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView14"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:layout_marginBottom="@dimen/fragment_padding"/>
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stereo_input_distance"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <EditText
+            android:id="@+id/et_stereo_distance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="" />
+
+        <Switch
+                android:text="@string/stereo_input_correction_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/sw_stereo_ignore_correction"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/stereo_last_distance"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+            <TextView
+                    android:id="@+id/tv_stereo_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/data_not_available"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="@string/stereo_last_corrected_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView12" android:layout_weight="0"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+            <TextView
+                    android:id="@+id/tv_stereo_distance_corrected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="@string/data_not_available"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_stereo_start"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="@string/stereo_start" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
