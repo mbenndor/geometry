@@ -135,7 +135,7 @@ def apply_patches():
         try:
             # Additionally, remove OpenCV module directory.
             logger.debug("Deleting OpenCV module directory")
-            #shutil.rmtree(OPENCV_MODULE_DIR)
+            shutil.rmtree(OPENCV_MODULE_DIR)
         except IOError:
             logger.error("Couldn't delete OpenCV module directory", exc_info=True)
 
