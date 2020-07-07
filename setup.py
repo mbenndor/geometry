@@ -121,10 +121,6 @@ def apply_patches():
                     if "FOCUS_MODE_CONTINUOUS_VIDEO" in line:
                         # Apply focus mode patch.
                         jcv_dest.write(line.replace("FOCUS_MODE_CONTINUOUS_VIDEO", "FOCUS_MODE_INFINITY"))
-                    elif "protected boolean initializeCamera" in line:
-                        # Apply camera getter patch.
-                        jcv_dest.write("    public Camera getCamera() { return this.mCamera; }" + os.linesep)
-                        jcv_dest.write(line)
                     else:
                         jcv_dest.write(line)
         
