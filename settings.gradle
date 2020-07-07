@@ -1,2 +1,2 @@
 include ':app', ':opencv'
-rootProject.name='AndMeasure'
+rootProject.name='NANDMeasure'

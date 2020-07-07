@@ -1,4 +1,4 @@
-package de.jugl.andmeasure.util;
+package de.jugl.nandmeasure.util;
 
 import android.hardware.SensorManager;
 import android.util.Log;

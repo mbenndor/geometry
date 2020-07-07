@@ -1,4 +1,4 @@
-package de.jugl.andmeasure.activity;
+package de.jugl.nandmeasure.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
 
-import de.jugl.andmeasure.util.*;
+import de.jugl.nandmeasure.util.*;
 import org.opencv.android.CameraBridgeViewBase;
 import org.opencv.core.*;
 import org.opencv.imgproc.Imgproc;

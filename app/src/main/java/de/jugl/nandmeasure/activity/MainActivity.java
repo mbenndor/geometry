@@ -1,4 +1,4 @@
-package de.jugl.andmeasure.activity;
+package de.jugl.nandmeasure.activity;
 
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
@@ -12,10 +12,10 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
 
-import de.jugl.andmeasure.R;
-import de.jugl.andmeasure.fragment.CalibrationFragment;
-import de.jugl.andmeasure.fragment.CaoFragment;
-import de.jugl.andmeasure.fragment.StereoscopyFragment;
+import de.jugl.nandmeasure.R;
+import de.jugl.nandmeasure.fragment.CalibrationFragment;
+import de.jugl.nandmeasure.fragment.CaoFragment;
+import de.jugl.nandmeasure.fragment.StereoscopyFragment;
 
 public class MainActivity extends AppCompatActivity {
 

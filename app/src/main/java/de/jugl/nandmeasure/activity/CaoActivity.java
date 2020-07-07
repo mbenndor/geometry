@@ -1,12 +1,12 @@
-package de.jugl.andmeasure.activity;
+package de.jugl.nandmeasure.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
-import de.jugl.andmeasure.CalibrationProfile;
-import de.jugl.andmeasure.util.*;
-import de.jugl.andmeasure.view.AndCameraView;
+import de.jugl.nandmeasure.CalibrationProfile;
+import de.jugl.nandmeasure.util.*;
+import de.jugl.nandmeasure.view.AndCameraView;
 import org.opencv.android.CameraBridgeViewBase;
 import org.opencv.core.*;
 import org.opencv.imgproc.Imgproc;

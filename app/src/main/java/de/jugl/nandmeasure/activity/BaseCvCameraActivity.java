@@ -1,4 +1,4 @@
-package de.jugl.andmeasure.activity;
+package de.jugl.nandmeasure.activity;
 
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
@@ -22,8 +22,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import de.jugl.andmeasure.util.CvUtil;
-import de.jugl.andmeasure.R;
+import de.jugl.nandmeasure.util.CvUtil;
+import de.jugl.nandmeasure.R;
 
 public abstract class BaseCvCameraActivity extends AppCompatActivity implements CameraBridgeViewBase.CvCameraViewListener2 {
 

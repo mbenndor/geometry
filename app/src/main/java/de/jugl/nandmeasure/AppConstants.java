@@ -1,4 +1,4 @@
-package de.jugl.andmeasure;
+package de.jugl.nandmeasure;
 
 public class AppConstants {
 

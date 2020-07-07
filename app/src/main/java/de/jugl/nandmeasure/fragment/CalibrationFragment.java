@@ -1,4 +1,4 @@
-package de.jugl.andmeasure.fragment;
+package de.jugl.nandmeasure.fragment;
 
 import android.Manifest;
 import android.app.Activity;
@@ -16,10 +16,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import de.jugl.andmeasure.AppConstants;
-import de.jugl.andmeasure.R;
-import de.jugl.andmeasure.activity.FovActivity;
-import de.jugl.andmeasure.activity.MainActivity;
+import de.jugl.nandmeasure.AppConstants;
+import de.jugl.nandmeasure.R;
+import de.jugl.nandmeasure.activity.FovActivity;
+import de.jugl.nandmeasure.activity.MainActivity;
 
 public class CalibrationFragment extends Fragment implements View.OnClickListener, MainActivity.PermissionCallbackListener {
 

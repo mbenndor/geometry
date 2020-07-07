@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.jugl.andmeasure">
+    package="de.jugl.nandmeasure">
 
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -24,17 +24,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.BaseCvCameraActivity"></activity>
-        <activity android:name=".activity.MainActivity">
+        <activity android:name="de.jugl.nandmeasure.activity.BaseCvCameraActivity"></activity>
+        <activity android:name="de.jugl.nandmeasure.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.FovActivity" />
-        <activity android:name=".activity.CaoActivity" />
-        <activity android:name=".activity.StereoscopyActivity" />
+        <activity android:name="de.jugl.nandmeasure.activity.FovActivity" />
+        <activity android:name="de.jugl.nandmeasure.activity.CaoActivity" />
+        <activity android:name="de.jugl.nandmeasure.activity.StereoscopyActivity" />
     </application>
 
 </manifest>

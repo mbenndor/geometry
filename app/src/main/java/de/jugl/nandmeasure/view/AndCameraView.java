@@ -1,4 +1,4 @@
-package de.jugl.andmeasure.view;
+package de.jugl.nandmeasure.view;
 
 import android.content.Context;
 import android.graphics.ImageFormat;

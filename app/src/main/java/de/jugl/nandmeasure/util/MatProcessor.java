@@ -1,4 +1,4 @@
-package de.jugl.andmeasure.util;
+package de.jugl.nandmeasure.util;
 
 import org.opencv.core.*;
 import org.opencv.imgproc.Imgproc;

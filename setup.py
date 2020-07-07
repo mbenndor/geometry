@@ -103,7 +103,7 @@ def cleanup():
 
 def apply_patches():
     """
-    Applies the source code patches in order to work with AndMeasure.
+    Applies the source code patches in order to work with NANDMeasure.
     """
     # Path to android package.
     and_package_path = os.path.join(OPENCV_MODULE_DIR, OPENCV_ANDROID_SRC_DIR)
@@ -139,7 +139,7 @@ def apply_patches():
         try:
             # Additionally, remove OpenCV module directory.
             logger.debug("Deleting OpenCV module directory")
-            shutil.rmtree(OPENCV_MODULE_DIR)
+            #shutil.rmtree(OPENCV_MODULE_DIR)
         except IOError:
             logger.error("Couldn't delete OpenCV module directory", exc_info=True)
 

@@ -1,4 +1,4 @@
-package de.jugl.andmeasure.fragment;
+package de.jugl.nandmeasure.fragment;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,10 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
-import de.jugl.andmeasure.AppConstants;
-import de.jugl.andmeasure.R;
-import de.jugl.andmeasure.activity.MainActivity;
-import de.jugl.andmeasure.activity.StereoscopyActivity;
+import de.jugl.nandmeasure.AppConstants;
+import de.jugl.nandmeasure.R;
+import de.jugl.nandmeasure.activity.MainActivity;
+import de.jugl.nandmeasure.activity.StereoscopyActivity;
 
 public class StereoscopyFragment extends Fragment implements View.OnClickListener {
 

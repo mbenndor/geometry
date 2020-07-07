@@ -1,8 +1,8 @@
-package de.jugl.andmeasure.util;
+package de.jugl.nandmeasure.util;
 
 import android.view.MotionEvent;
 
-import de.jugl.andmeasure.activity.BaseCvCameraActivity;
+import de.jugl.nandmeasure.activity.BaseCvCameraActivity;
 import org.opencv.core.Point;
 import org.opencv.core.Rect;
 

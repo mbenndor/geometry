@@ -1,4 +1,4 @@
-package de.jugl.andmeasure;
+package de.jugl.nandmeasure;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("de.jugl.andmeasure", appContext.getPackageName());
+        assertEquals("de.jugl.nandmeasure", appContext.getPackageName());
     }
 }

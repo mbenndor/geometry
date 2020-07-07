@@ -1,4 +1,4 @@
-package de.jugl.andmeasure.fragment;
+package de.jugl.nandmeasure.fragment;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,11 +11,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
-import de.jugl.andmeasure.AppConstants;
-import de.jugl.andmeasure.CalibrationProfile;
-import de.jugl.andmeasure.R;
-import de.jugl.andmeasure.activity.CaoActivity;
-import de.jugl.andmeasure.activity.MainActivity;
+import de.jugl.nandmeasure.AppConstants;
+import de.jugl.nandmeasure.CalibrationProfile;
+import de.jugl.nandmeasure.R;
+import de.jugl.nandmeasure.activity.CaoActivity;
+import de.jugl.nandmeasure.activity.MainActivity;
 
 public class CaoFragment extends Fragment implements View.OnClickListener, AdapterView.OnItemSelectedListener {
 

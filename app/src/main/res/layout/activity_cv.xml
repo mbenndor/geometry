@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context=".activity.BaseCvCameraActivity">
 
-    <de.jugl.andmeasure.view.AndCameraView
+    <de.jugl.nandmeasure.view.AndCameraView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:visibility="gone"

@@ -1,4 +1,4 @@
-package de.jugl.andmeasure.util;
+package de.jugl.nandmeasure.util;
 
 import android.content.Context;
 import android.util.Log;
