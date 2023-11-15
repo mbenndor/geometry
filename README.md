@@ -1,4 +1,4 @@
-# NAND-Measure
+# Geometry
 
 Android application implementing two different algorithms for measuring the distance between the device camera and a black circle. This project is built on OpenCV 4.1.2 and there is **no guarantee** that this application will not break if you choose a different version. This repository includes a setup script which downloads the recommended OpenCV build and sets it up so IntelliJ/Android Studio picks up on it. You may change the library version in the script if you wish.
 
